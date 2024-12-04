@@ -1,0 +1,123 @@
+.countries-main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.countries-main-container.light-theme {
+  background-color: #f1f1f1;
+}
+
+.countries-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 70px;
+  font-size: 14px;
+}
+.countries-grid p {
+  color: #f1f1f1;
+}
+
+.countries-card-img {
+  height: 50%;
+  min-width: 100%;
+  object-fit: cover;
+}
+
+.countries-card {
+  background-color: #fff;
+}
+.countries-card.light-theme {
+  background-color: var(--article-color);
+}
+
+.info {
+  font-size: 14px;
+  color: var(--light-mode-input);
+}
+
+.countries-data {
+  margin: 20px;
+  color: var(--light-mode-input);
+}
+.countries-data p {
+  color: black;
+}
+.countries-data p.light-theme {
+  color: #fff;
+}
+.countries-data.light-theme {
+  color: black;
+}
+
+.countries-data h2 {
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.countries-data h2.light-theme {
+  color: var(--text-color);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header.light-theme {
+  background-color: green;
+}
+
+.search-bar .MuiOutlinedInput-root {
+  color: black !important;
+  border-radius: 4px;
+  min-width: 500px;
+  gap: 10px;
+  background-color: #fff;
+}
+.search-bar .MuiOutlinedInput-root.light-theme {
+  color: #fff !important;
+  background-color: hsl(209, 23%, 22%);
+}
+
+.searchicon.light-theme {
+  color: #fff;
+}
+
+.filter-button {
+  background-color: #fff;
+  padding: 10px;
+  font-size: 14px;
+}
+.filter-button.light-theme {
+  background-color: var(--article-color);
+}
+
+.dropdown {
+  background-color: #f1f1f1;
+  color: hsl(0, 0%, 52%) !important;
+  min-width: 191px;
+  padding: 0 10px;
+  position: absolute;
+  margin: 10px 0;
+}
+.dropdown.light-theme {
+  background-color: var(--article-color);
+  color: var(--text-color) !important;
+}
+.dropdown p {
+  cursor: pointer;
+  padding: 5px;
+}
+.dropdown p:hover {
+  background-color: #f1f1f1;
+}
+
+.filter-button-01 {
+  gap: 20px;
+  background-color: #fff;
+  color: var(--light-mode-input) !important;
+}
+.filter-button-01.light-theme {
+  color: black !important;
+}

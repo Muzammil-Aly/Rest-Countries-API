@@ -1,0 +1,10 @@
+.main-header {
+  background-color: var(--article-color);
+  color: var(--text-color);
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Segoe UI";
+}
+.darkmood-button {
+  color: brown;
+}
